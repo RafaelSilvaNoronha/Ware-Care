@@ -1,0 +1,8 @@
+.vestimentas{
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

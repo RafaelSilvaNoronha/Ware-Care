@@ -1,0 +1,11 @@
+.busca{
+    background-color:transparent;
+    height:26px;
+    width:300px;
+    border-radius: 15px;
+    font-size:18px;
+    font-style:italic;
+    float:left;
+    border:none;
+    padding-left: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Wear&Care</title>
+    <link rel="stylesheet" href="estilocontato.css">
+</head>
+<body>
+<!--Início do Cabeçalho-->
+    <header>
+<!--Nome da marca-->
+        <div class="nomeMarca">
+            Wear&Care 
+        </div>
+<!--Caixa de pesquisa-->
+        <div class="barraPesquisa">
+            <input type="search" class="busca" placeholder="Buscar..."/>
+            <button class="botaoBusca"><img src="./imagens/lupa.png" width="20px" height="20px" class="botaoBusca" alt="buscar"/></button>
+        </div>
+<!--Caixa de login-->
+        <div class="login">
+            <a href="contato.htm">Login</a> <img src="./imagens/login.png" width="22px" height="22px">
+        </div>
+<!--Caixa do carrinho-->
+        <div class="carrinho">
+            <a href="carrinho.html">Carrinho</a> <img src="./imagens/carrinho.png" width="22px" height="22px">
+        </div>
+<!--Links das outras páginas-->
+        <div class="links">
+            <ul class="listalinks">
+                <a href="index.html">Home /</a>
+                <a href="quemsomos.html">Quem Somos /</a>
+                <a href="produtos.html">Produtos /</a>
+                <a href="contato.html">Contato</a>
+            </ul>
+        </div>
+    </header>
+<!--Fim do cabeçalho-->
+<!--Início da main-->
+<main>
+    <form method="post" action="./php/formulariologin.php">
+        <label class="formulariologin" for="title">Formulário de Login Wear&Care</label>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="txtName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="txtEmail" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="txtPassword" required>
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="txtMessage" required> </textarea>
+
+    </form>
+</main>
+<!-- Fim da main-->
+<!--Início do rodapé-->
+    <footer>
+<!--Seção de atendimento ao cliente-->
+        <div class="atendimentoAoCliente">
+            <p><strong>Atendimento ao Cliente:</strong></p>
+            <p><a href="trocasDevoluções.html">Trocas e Devoluções</a></p>
+            <p><a href="prazosEntregas.html">Prazos e Entregas</a></p>
+        </div>
+<!--Seção de Redes Sociais-->
+        <div class="redesSociais">
+            <p><strong>Redes Sociais:</strong></p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+        </div>
+<!--Seção de pedidos-->
+        <div class="meusPedidos">
+            <p><strong>Meus Pedidos:</strong></p>
+            <p><a href="pedidosRealizados.html">Pedidos Realizados</p>
+            <p><a href="listaDesejos.html">Lista de Desejos</p>
+        </div>
+    </footer>
+<!--Fim do rodapé-->
+</body>
+</html>
