@@ -1,0 +1,23 @@
+.titulo{
+    background-color: #489871;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    font-size: 36px;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgreen;
+    box-shadow: 0px 2px 5px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

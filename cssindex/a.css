@@ -4,3 +4,7 @@ a{
     color:  #489871;
     justify-content: space-between;
 }
+a:hover {
+    background-color: #333;
+    color: #fff;
+  }

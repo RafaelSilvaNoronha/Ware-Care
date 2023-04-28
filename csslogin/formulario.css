@@ -7,14 +7,13 @@ form{
     margin: 0 auto;
     margin-top: 15px;
 }
-
 label{
     display: block;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.formulariocontato{
+.formulariologin{
     display: flex;
     justify-content: center;
     font-size: 18px;
